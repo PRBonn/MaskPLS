@@ -38,7 +38,7 @@ Download the [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#overview
 ```
 
 ### NuScenes
-We use [nuscenes2kitti]() to convert the nuScenes format into the SemanticKITTI format and store it in `data/nuscenes/`.
+We use [nuscenes2kitti](https://github.com/PRBonn/nuscenes2kitti) to convert the nuScenes format into the SemanticKITTI format and store it in `data/nuscenes/`.
 
 In the scripts, use the `--nuscenes` flag to train or evaluate using this dataset.
 
