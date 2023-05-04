@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+preferred-citation:
+  title: "Mask-Based Panoptic LiDAR Segmentation for Autonomous Driving"
+  doi: "10.1109/LRA.2023.3236568"
+  year: "2023"
+  type: article
+  journal: "IEEE Robotics and Automation Letters (RA-L)"
+  url: https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2023ral.pdf
+  codeurl: https://github.com/PRBonn/MaskPLS
+  authors:
+    - family-names: Marcuzzi
+      given-names: Rodrigo
+    - family-names: Nunes
+      given-names: Lucas
+    - family-names: Wiesmann
+      given-names: Louis
+    - family-names: Behley
+      given-names: Jens
+    - family-names: Stachniss
+      given-names: Cyrill
+
