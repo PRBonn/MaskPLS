@@ -61,18 +61,20 @@ python3 scripts/train_model.py
 ```
 
 ## Citation
-```
+```bibtex
 @article{marcuzzi2023ral,
-author = {R. Marcuzzi and L. Nunes and L. Wiesmann and J. Behley and C. Stachniss},
-title = {{Mask-Based Panoptic LiDAR Segmentation for Autonomous Driving}},
-journal = ral,
-volume = {8},
-number = {2},
-pages = {1141--1148},
-year = 2023,
-doi = {10.1109/LRA.2023.3236568},
-url = {https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2023ral.pdf},
+  author = {R. Marcuzzi and L. Nunes and L. Wiesmann and J. Behley and C. Stachniss},
+  title = {{Mask-Based Panoptic LiDAR Segmentation for Autonomous Driving}},
+  journal = ral,
+  volume = {8},
+  number = {2},
+  pages = {1141--1148},
+  year = 2023,
+  doi = {10.1109/LRA.2023.3236568},
+  url = {https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2023ral.pdf},
 }
 ```
 ## Licence
 Copyright 2023, Rodrigo Marcuzzi, Cyrill Stachniss, Photogrammetry and Robotics Lab, University of Bonn.
+
+This project is free software made available under the MIT License. For details see the LICENSE file
