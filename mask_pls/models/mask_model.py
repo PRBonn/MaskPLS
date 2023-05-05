@@ -1,4 +1,3 @@
-import mask_pls.utils.plot as pl
 import mask_pls.utils.testing as testing
 import MinkowskiEngine as ME
 import torch
