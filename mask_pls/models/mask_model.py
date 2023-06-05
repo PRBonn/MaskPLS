@@ -97,7 +97,7 @@ class MaskPS(LightningModule):
         if "RESULTS_DIR" in self.cfg:
             results_dir = self.cfg.RESULTS_DIR
             class_inv_lut = self.evaluator.get_class_inv_lut()
-            dt = self.cfg[self.cfg.MODEL.DATASET]
+            dt = self.cfg.MODEL.DATASET
             testing.save_results(
                 sem_pred, ins_pred, results_dir, x, class_inv_lut, x["token"], dt
             )
