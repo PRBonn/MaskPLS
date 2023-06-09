@@ -1,5 +1,4 @@
 import os
-import subprocess
 from os.path import join
 
 import click
@@ -28,9 +27,6 @@ def main(w, ckpt, nuscenes):
         yaml.safe_load(open(join(getDir(__file__), "../config/decoder.yaml")))
     )
     cfg = edict({**model_cfg, **backbone_cfg, **decoder_cfg})
-    cfg.git_commit_version = str(
-        subprocess.check_output(["git", "rev-parse", "--short", "HEAD"]).strip()
-    )
     if nuscenes:
         cfg.MODEL.DATASET = "NUSCENES"
 
